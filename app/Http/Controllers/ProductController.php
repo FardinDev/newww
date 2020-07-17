@@ -27,8 +27,6 @@ class ProductController extends Controller
 
 
     $request->validate([
-        $slug= $request->slug;
-
         'product_thumbnail' => 'required|mimes:jpeg,bmp,png'
     ]);
 
